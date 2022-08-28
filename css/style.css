@@ -20,8 +20,8 @@ a {
 @media all and (min-width: 320px) {
   #menu {
     position: absolute;
-    left: 500px;
-    top: 25px;
+    left: 540px;
+    top: 27px;
     cursor: pointer;
   }
   header {
@@ -63,7 +63,7 @@ a {
   }
   #Accordion_wrap .navi {
     cursor: pointer;
-    width: 400px;
+    width: 100vw;
     height: 100%;
     background: pink;
     margin: 0 auto;
@@ -76,7 +76,7 @@ a {
   }
   #Accordion_wrap .naviSub {
     margin: 0 auto;
-    width: 400px;
+    width: 100%;
     height: 100%;
     background: white;
   }
@@ -118,7 +118,7 @@ a {
     margin: 10px 0;
   }
   .MliveBox .MliveBox01 {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
   }
   .MliveBox .MliveBox01 .MliveWrap01 {
@@ -133,16 +133,16 @@ a {
     border-radius: 10px;
     -webkit-box-shadow: 2px 2px 2px 2px lightgray;
             box-shadow: 2px 2px 2px 2px lightgray;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox .MliveBox01 .MliveWrap01 img {
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox .MliveBox01 .MliveWrap01 p {
-    margin: 20px 0px 40px 20px;
+    margin: 20px 10px 40px 10px;
     font-size: 20px;
   }
   .MliveBox .MliveWrap02 {
@@ -158,16 +158,16 @@ a {
     border-radius: 10px;
     -webkit-box-shadow: 2px 2px 2px 2px lightgray;
             box-shadow: 2px 2px 2px 2px lightgray;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox .MliveWrap02 .Mlive img {
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox .MliveWrap02 .Mlive p {
-    margin: 20px 0px 40px 20px;
+    margin: 20px 10px 40px 10px;
     font-size: 20px;
   }
   .MliveBox .MliveWrap03 {
@@ -183,16 +183,16 @@ a {
     border-radius: 10px;
     -webkit-box-shadow: 2px 2px 2px 2px lightgray;
             box-shadow: 2px 2px 2px 2px lightgray;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox .MliveWrap03 .Mlive img {
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox .MliveWrap03 .Mlive p {
-    margin: 20px 0px 40px 20px;
+    margin: 20px 10px 40px 10px;
     font-size: 20px;
   }
   .MplusBtnWrap {
@@ -210,7 +210,7 @@ a {
     margin: 30px 0;
   }
   .MliveBox02 {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
     display: none;
   }
@@ -226,16 +226,16 @@ a {
     border-radius: 10px;
     -webkit-box-shadow: 2px 2px 2px 2px lightgray;
             box-shadow: 2px 2px 2px 2px lightgray;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox02 .MliveWrap04 .Mlive img {
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox02 .MliveWrap04 .Mlive p {
-    margin: 20px 0px 40px 20px;
+    margin: 20px 10px 40px 10px;
     font-size: 20px;
   }
   .MliveBox02 .MliveWrap05 {
@@ -251,16 +251,16 @@ a {
     border-radius: 10px;
     -webkit-box-shadow: 2px 2px 2px 2px lightgray;
             box-shadow: 2px 2px 2px 2px lightgray;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox02 .MliveWrap05 .Mlive img {
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox02 .MliveWrap05 .Mlive p {
-    margin: 20px 0px 40px 20px;
+    margin: 20px 10px 40px 10px;
     font-size: 20px;
   }
   .MliveBox02 .MliveWrap06 {
@@ -276,16 +276,16 @@ a {
     border-radius: 10px;
     -webkit-box-shadow: 2px 2px 2px 2px lightgray;
             box-shadow: 2px 2px 2px 2px lightgray;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox02 .MliveWrap06 .Mlive img {
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    width: 200px;
+    width: 180px;
   }
   .MliveBox02 .MliveWrap06 .Mlive p {
-    margin: 20px 0px 40px 20px;
+    margin: 20px 10px 40px 10px;
     font-size: 20px;
   }
   footer {
@@ -411,7 +411,7 @@ a {
   header .etc .search {
     cursor: pointer;
   }
-  .navi {
+  #Accordion_wrap {
     display: none;
   }
   .searchWrap {

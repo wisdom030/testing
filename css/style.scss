@@ -18,8 +18,8 @@ a {
 @media all and (min-width: 320px) {
   #menu {
     position: absolute;
-    left: 500px;
-    top: 25px;
+    left: 540px;
+    top: 27px;
     cursor: pointer;
   }
   header {
@@ -52,7 +52,7 @@ a {
     position: absolute;
     .navi {
       cursor: pointer;
-      width: 400px;
+      width: 100vw;
       height: 100%;
       background: pink;
       margin: 0 auto;
@@ -65,7 +65,7 @@ a {
     }
     .naviSub {
       margin: 0 auto;
-      width: 400px;
+      width: 100%;
       height: 100%;
       background: white;
       span {
@@ -107,7 +107,7 @@ a {
       margin: 10px 0;
     }
     .MliveBox01 {
-      width: 500px;
+      width: 400px;
       margin: 0 auto;
       .MliveWrap01 {
         display: flex;
@@ -115,16 +115,16 @@ a {
         .Mlive {
           border-radius: 10px;
           box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
-          width: 200px;
+          width: 180px;
         }
         img {
           border-radius: 10px;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 200px;
+          width: 180px;
         }
         p {
-          margin: 20px 0px 40px 20px;
+          margin: 20px 10px 40px 10px;
           font-size: 20px;
         }
       }
@@ -136,15 +136,15 @@ a {
       .Mlive {
         border-radius: 10px;
         box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
-        width: 200px;
+        width: 180px;
         img {
           border-radius: 10px;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 200px;
+          width: 180px;
         }
         p {
-          margin: 20px 0px 40px 20px;
+          margin: 20px 10px 40px 10px;
           font-size: 20px;
         }
       }
@@ -156,15 +156,15 @@ a {
       .Mlive {
         border-radius: 10px;
         box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
-        width: 200px;
+        width: 180px;
         img {
           border-radius: 10px;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 200px;
+          width: 180px;
         }
         p {
-          margin: 20px 0px 40px 20px;
+          margin: 20px 10px 40px 10px;
           font-size: 20px;
         }
       }
@@ -185,7 +185,7 @@ a {
     }
   }
   .MliveBox02 {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
     display: none;
     .MliveWrap04 {
@@ -194,15 +194,15 @@ a {
       .Mlive {
         border-radius: 10px;
         box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
-        width: 200px;
+        width: 180px;
         img {
           border-radius: 10px;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 200px;
+          width: 180px;
         }
         p {
-          margin: 20px 0px 40px 20px;
+          margin: 20px 10px 40px 10px;
           font-size: 20px;
         }
       }
@@ -214,15 +214,15 @@ a {
       .Mlive {
         border-radius: 10px;
         box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
-        width: 200px;
+        width: 180px;
         img {
           border-radius: 10px;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 200px;
+          width: 180px;
         }
         p {
-          margin: 20px 0px 40px 20px;
+          margin: 20px 10px 40px 10px;
           font-size: 20px;
         }
       }
@@ -234,15 +234,15 @@ a {
       .Mlive {
         border-radius: 10px;
         box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
-        width: 200px;
+        width: 180px;
         img {
           border-radius: 10px;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 200px;
+          width: 180px;
         }
         p {
-          margin: 20px 0px 40px 20px;
+          margin: 20px 10px 40px 10px;
           font-size: 20px;
         }
       }
@@ -349,7 +349,7 @@ a {
       }
     }
   }
-  .navi {
+  #Accordion_wrap {
     display: none;
   }
   .searchWrap {

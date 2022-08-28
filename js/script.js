@@ -24,7 +24,7 @@ $(document).ready(function() {
 });
 
 $(window).resize(function(){ 
-  if (window.innerWidth > 1024) {  
+  if ( window.innerWidth > 1024) {  
 
     $(".plus").click(function() {
       $(".plus").hide();
@@ -32,7 +32,7 @@ $(window).resize(function(){
       $("footer").offset({top:"2650"});
     });
 
-  } if (window.innerWidth > 768) {
+  } if (1025 > window.innerWidth > 768) {
 
     $(".plus").click(function() {
       $(".plus").hide();
