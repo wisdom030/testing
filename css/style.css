@@ -86,8 +86,6 @@ a {
     float: left;
   }
   .imgSlideWrap {
-    width: 800px;
-    height: 250px;
     margin: 0 auto;
   }
   .imgSlideWrap .imgSlide {
@@ -103,7 +101,7 @@ a {
     overflow: hidden;
   }
   .imgSlideWrap .imgSlide a img {
-    height: 250px;
+    height: 150px;
   }
   .liveBox {
     display: none;
