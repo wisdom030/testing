@@ -158,15 +158,40 @@ a {
     border-radius: 10px;
     -webkit-box-shadow: 2px 2px 2px 2px lightgray;
             box-shadow: 2px 2px 2px 2px lightgray;
-    width: 250px;
+    width: 200px;
   }
   .MliveBox .MliveWrap02 .Mlive img {
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    width: 250px;
+    width: 200px;
   }
   .MliveBox .MliveWrap02 .Mlive p {
+    margin: 20px 0px 40px 20px;
+    font-size: 20px;
+  }
+  .MliveBox .MliveWrap03 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 50px;
+  }
+  .MliveBox .MliveWrap03 .Mlive {
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 2px 2px lightgray;
+            box-shadow: 2px 2px 2px 2px lightgray;
+    width: 200px;
+  }
+  .MliveBox .MliveWrap03 .Mlive img {
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 200px;
+  }
+  .MliveBox .MliveWrap03 .Mlive p {
     margin: 20px 0px 40px 20px;
     font-size: 20px;
   }
@@ -185,33 +210,9 @@ a {
     margin: 30px 0;
   }
   .MliveBox02 {
-    width: 800px;
+    width: 500px;
     margin: 0 auto;
     display: none;
-  }
-  .MliveBox02 .MliveWrap03 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .MliveBox02 .MliveWrap03 .Mlive {
-    border-radius: 10px;
-    -webkit-box-shadow: 2px 2px 2px 2px lightgray;
-            box-shadow: 2px 2px 2px 2px lightgray;
-    width: 250px;
-  }
-  .MliveBox02 .MliveWrap03 .Mlive img {
-    border-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    width: 250px;
-  }
-  .MliveBox02 .MliveWrap03 .Mlive p {
-    margin: 20px 0px 40px 20px;
-    font-size: 20px;
   }
   .MliveBox02 .MliveWrap04 {
     display: -webkit-box;
@@ -220,21 +221,70 @@ a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 50px;
   }
   .MliveBox02 .MliveWrap04 .Mlive {
     border-radius: 10px;
     -webkit-box-shadow: 2px 2px 2px 2px lightgray;
             box-shadow: 2px 2px 2px 2px lightgray;
-    width: 250px;
+    width: 200px;
   }
   .MliveBox02 .MliveWrap04 .Mlive img {
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    width: 250px;
+    width: 200px;
   }
   .MliveBox02 .MliveWrap04 .Mlive p {
+    margin: 20px 0px 40px 20px;
+    font-size: 20px;
+  }
+  .MliveBox02 .MliveWrap05 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 50px;
+  }
+  .MliveBox02 .MliveWrap05 .Mlive {
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 2px 2px lightgray;
+            box-shadow: 2px 2px 2px 2px lightgray;
+    width: 200px;
+  }
+  .MliveBox02 .MliveWrap05 .Mlive img {
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 200px;
+  }
+  .MliveBox02 .MliveWrap05 .Mlive p {
+    margin: 20px 0px 40px 20px;
+    font-size: 20px;
+  }
+  .MliveBox02 .MliveWrap06 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 50px;
+  }
+  .MliveBox02 .MliveWrap06 .Mlive {
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 2px 2px lightgray;
+            box-shadow: 2px 2px 2px 2px lightgray;
+    width: 200px;
+  }
+  .MliveBox02 .MliveWrap06 .Mlive img {
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 200px;
+  }
+  .MliveBox02 .MliveWrap06 .Mlive p {
     margin: 20px 0px 40px 20px;
     font-size: 20px;
   }
@@ -243,8 +293,8 @@ a {
     height: 300px;
     background: #292929;
     position: relative;
-    -webkit-transform: translateY(240%);
-            transform: translateY(240%);
+    -webkit-transform: translateY(340%);
+            transform: translateY(340%);
   }
   footer .footerWrap {
     width: 500px;

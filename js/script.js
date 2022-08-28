@@ -44,7 +44,7 @@ $(window).resize(function(){
     $(".Mplus").click(function() {
       $(".Mplus").hide();
       $(".MliveBox02").show();
-      $("footer").offset({top:"1900"});
+      $("footer").offset({top:"2550"});
     });
     
   }

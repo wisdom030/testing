@@ -136,12 +136,32 @@ a {
       .Mlive {
         border-radius: 10px;
         box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
-        width: 250px;
+        width: 200px;
         img {
           border-radius: 10px;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 250px;
+          width: 200px;
+        }
+        p {
+          margin: 20px 0px 40px 20px;
+          font-size: 20px;
+        }
+      }
+    }
+    .MliveWrap03 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      .Mlive {
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
+        width: 200px;
+        img {
+          border-radius: 10px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 200px;
         }
         p {
           margin: 20px 0px 40px 20px;
@@ -165,21 +185,21 @@ a {
     }
   }
   .MliveBox02 {
-    width: 800px;
+    width: 500px;
     margin: 0 auto;
     display: none;
-    .MliveWrap03 {
+    .MliveWrap04 {
       display: flex;
       justify-content: space-between;
       .Mlive {
         border-radius: 10px;
         box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
-        width: 250px;
+        width: 200px;
         img {
           border-radius: 10px;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 250px;
+          width: 200px;
         }
         p {
           margin: 20px 0px 40px 20px;
@@ -187,19 +207,39 @@ a {
         }
       }
     }
-    .MliveWrap04 {
+    .MliveWrap05 {
       display: flex;
       justify-content: space-between;
       margin-top: 50px;
       .Mlive {
         border-radius: 10px;
         box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
-        width: 250px;
+        width: 200px;
         img {
           border-radius: 10px;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 250px;
+          width: 200px;
+        }
+        p {
+          margin: 20px 0px 40px 20px;
+          font-size: 20px;
+        }
+      }
+    }
+    .MliveWrap06 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      .Mlive {
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
+        width: 200px;
+        img {
+          border-radius: 10px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 200px;
         }
         p {
           margin: 20px 0px 40px 20px;
@@ -213,7 +253,7 @@ a {
     height: 300px;
     background: rgb(41, 41, 41);
     position: relative;
-    transform: translateY(240%);
+    transform: translateY(340%);
     .footerWrap {
       width: 500px;
       height: 100%;
