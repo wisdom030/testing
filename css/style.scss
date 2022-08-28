@@ -77,7 +77,7 @@ a {
   }
   .imgSlideWrap {
     width: 800px;
-    height: 200px;
+    height: 250px;
     margin: 0 auto;
     .imgSlide {
       position: relative;
@@ -90,22 +90,29 @@ a {
         top: 0;
         overflow: hidden;
         img {
-          height: 200px;
+          height: 250px;
         }
       }
     }
   }
   .liveBox {
+    display: none;
+  }
+  .MliveBox {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
     h4 {
-      font-size: 20px;
+      margin: 10px 0;
     }
-    .liveBox01 {
-      width: 400px;
+    .MliveBox01 {
+      width: 500px;
       margin: 0 auto;
-      .liveWrap01 {
-        justify-content: space-between;
+      .MliveWrap01 {
         display: flex;
-        .live {
+        justify-content: space-between;
+        .Mlive {
           border-radius: 10px;
           box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
           width: 200px;
@@ -117,8 +124,142 @@ a {
           width: 200px;
         }
         p {
-          margin: 20px 10px 0px 20px;
+          margin: 20px 0px 40px 20px;
           font-size: 20px;
+        }
+      }
+    }
+    .MliveWrap02 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      .Mlive {
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
+        width: 250px;
+        img {
+          border-radius: 10px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 250px;
+        }
+        p {
+          margin: 20px 0px 40px 20px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .MplusBtnWrap {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    .Mplus {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      border: none;
+      background: rgb(265, 188, 13);
+      cursor: pointer;
+      margin: 30px 0;
+    }
+  }
+  .MliveBox02 {
+    width: 800px;
+    margin: 0 auto;
+    display: none;
+    .MliveWrap03 {
+      display: flex;
+      justify-content: space-between;
+      .Mlive {
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
+        width: 250px;
+        img {
+          border-radius: 10px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 250px;
+        }
+        p {
+          margin: 20px 0px 40px 20px;
+          font-size: 20px;
+        }
+      }
+    }
+    .MliveWrap04 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      .Mlive {
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
+        width: 250px;
+        img {
+          border-radius: 10px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 250px;
+        }
+        p {
+          margin: 20px 0px 40px 20px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  footer {
+    width: 100%;
+    height: 300px;
+    background: rgb(41, 41, 41);
+    position: relative;
+    transform: translateY(240%);
+    .footerWrap {
+      width: 500px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      .info {
+        width: 90%;
+        height: 100%;
+        ul {
+          margin-top: 60px;
+          li:first-child {
+            a {
+              color: rgb(247, 257, 1);
+            }
+          }
+          li {
+            line-height: 30px;
+            span {
+              color: rgb(134, 134, 134);
+              width: 20%;
+              height: 100%;
+              margin-left: 100px;
+            }
+            .span {
+              margin-left: 155px;
+            }
+          }
+          li {
+            a {
+              color: white;
+            }
+          }
+        }
+      }
+      .sns {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        .fa-brands {
+          color: white;
+        }
+        a {
+          margin-top: 60px;
         }
       }
     }
@@ -263,10 +404,14 @@ a {
       }
     }
   }
+  .MliveBox {
+    display: none;
+  }
   .liveBox {
     width: 800px;
     height: 100px;
     margin: 0 auto;
+    display: block;
     h4 {
       margin: 10px 0;
     }

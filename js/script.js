@@ -32,17 +32,28 @@ $(window).resize(function(){
       $("footer").offset({top:"2650"});
     });
 
-  } else {
+  } if (window.innerWidth > 768) {
 
     $(".plus").click(function() {
       $(".plus").hide();
       $(".liveBox02").show();
       $("footer").offset({top:"2000"});
     });
-  
+
+  } else {
+    $(".Mplus").click(function() {
+      $(".Mplus").hide();
+      $(".MliveBox02").show();
+      $("footer").offset({top:"1900"});
+    });
+    
   }
   
   }).resize();
+
+
+
+
 
 
   $(window).resize(function(){
