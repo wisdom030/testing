@@ -15,7 +15,120 @@ a {
   color: #333333;
 }
 
+@media all and (min-width: 320px) {
+  #menu {
+    position: absolute;
+    left: 500px;
+    top: 25px;
+    cursor: pointer;
+  }
+  header {
+    width: 400px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    .logo {
+      width: 10%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 30px;
+      }
+    }
+    .etc {
+      display: none;
+    }
+    .mainMenu {
+      display: none;
+    }
+  }
+  .subMenu {
+    display: none;
+  }
+  #Accordion_wrap {
+    z-index: 1;
+    position: absolute;
+    .navi {
+      cursor: pointer;
+      width: 400px;
+      height: 100%;
+      background: pink;
+      margin: 0 auto;
+      padding: 20px;
+      span {
+        font-weight: bold;
+        font-size: 20px;
+        z-index: 1;
+      }
+    }
+    .naviSub {
+      margin: 0 auto;
+      width: 400px;
+      height: 100%;
+      background: white;
+      span {
+        width: 50%;
+        height: 100%;
+        float: left;
+      }
+    }
+  }
+  .imgSlideWrap {
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    .imgSlide {
+      position: relative;
+      width: 100vw;
+      height: 300px;
+      overflow: hidden;
+      a {
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        img {
+          height: 200px;
+        }
+      }
+    }
+  }
+  .liveBox {
+    h4 {
+      font-size: 20px;
+    }
+    .liveBox01 {
+      width: 400px;
+      margin: 0 auto;
+      .liveWrap01 {
+        justify-content: space-between;
+        display: flex;
+        .live {
+          border-radius: 10px;
+          box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
+          width: 200px;
+        }
+        img {
+          border-radius: 10px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 200px;
+        }
+        p {
+          margin: 20px 10px 0px 20px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
 @media all and (min-width: 768px) {
+  #menu {
+    display: none;
+  }
   header {
     width: 800px;
     height: 100px;
@@ -35,6 +148,7 @@ a {
       align-items: center;
       justify-content: space-around;
       width: 60%;
+      position: relative;
       a {
         font-weight: bold;
         width: 25%;
@@ -54,6 +168,9 @@ a {
       }
     }
   }
+  .navi {
+    display: none;
+  }
   .searchWrap {
     display: none;
     z-index: 1;
@@ -65,7 +182,33 @@ a {
     background: rgba(0, 0, 0, 0.5);
     .searchBox {
       margin: 0 auto;
+      width: 800px;
       margin-top: 200px;
+      input {
+        width: 400px;
+        height: 50px;
+        border-radius: 30px;
+      }
+      input::placeholder {
+        text-indent: 30px;
+      }
+      .btnSearch {
+        border-radius: 30px;
+        height: 50px;
+        width: 100px;
+        background: rgb(265, 188, 13);
+        cursor: pointer;
+        border: none;
+      }
+      .btn {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background: rgb(265, 188, 13);
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+      }
     }
   }
   .searchWrap.active {

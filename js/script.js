@@ -1,10 +1,4 @@
 $(document).ready(function() {
-  $(".subMenu").hide();
-  $("nav").mouseover(function() {
-    $(".subMenu").stop().slideDown(300);
-  }).mouseout(function() {
-    $(".subMenu").stop().slideUp(300);
-  });
 
   $(".search").click(function() {
     $(".searchWrap").addClass("active");
@@ -49,3 +43,29 @@ $(window).resize(function(){
   }
   
   }).resize();
+
+
+  $(window).resize(function(){
+    if (window.innerWidth > 768) {  
+      $(".subMenu").hide();
+      $("nav").mouseover(function() {
+        $(".subMenu").stop().slideDown(300);
+      }).mouseout(function() {
+        $(".subMenu").stop().slideUp(300);
+      });
+    
+  } else {
+    $(".navi").hide();
+    $(".naviSub").hide();
+    $("#menu").click(function() {
+      $(".navi").show();
+      $(".navi").click(function() {
+        $(this).next(".naviSub").stop().slideToggle(300);
+        $(this).toggleClass("on").siblings().removeClass("on");
+        $(this).next(".naviSub").siblings(".naviSub").slideUp(300);
+      });
+    });
+  }
+  }).resize();
+  
+  

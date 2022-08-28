@@ -17,7 +17,131 @@ a {
   color: #333333;
 }
 
+@media all and (min-width: 320px) {
+  #menu {
+    position: absolute;
+    left: 500px;
+    top: 25px;
+    cursor: pointer;
+  }
+  header {
+    width: 400px;
+    height: 70px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .logo {
+    width: 10%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .logo img {
+    width: 30px;
+  }
+  header .etc {
+    display: none;
+  }
+  header .mainMenu {
+    display: none;
+  }
+  .subMenu {
+    display: none;
+  }
+  #Accordion_wrap {
+    z-index: 1;
+    position: absolute;
+  }
+  #Accordion_wrap .navi {
+    cursor: pointer;
+    width: 400px;
+    height: 100%;
+    background: pink;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  #Accordion_wrap .navi span {
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 1;
+  }
+  #Accordion_wrap .naviSub {
+    margin: 0 auto;
+    width: 400px;
+    height: 100%;
+    background: white;
+  }
+  #Accordion_wrap .naviSub span {
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+  .imgSlideWrap {
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .imgSlideWrap .imgSlide {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    overflow: hidden;
+  }
+  .imgSlideWrap .imgSlide a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+  }
+  .imgSlideWrap .imgSlide a img {
+    height: 200px;
+  }
+  .liveBox h4 {
+    font-size: 20px;
+  }
+  .liveBox .liveBox01 {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .liveBox .liveBox01 .liveWrap01 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .liveBox .liveBox01 .liveWrap01 .live {
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 2px 2px lightgray;
+            box-shadow: 2px 2px 2px 2px lightgray;
+    width: 200px;
+  }
+  .liveBox .liveBox01 .liveWrap01 img {
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 200px;
+  }
+  .liveBox .liveBox01 .liveWrap01 p {
+    margin: 20px 10px 0px 20px;
+    font-size: 20px;
+  }
+}
+
 @media all and (min-width: 768px) {
+  #menu {
+    display: none;
+  }
   header {
     width: 800px;
     height: 100px;
@@ -51,6 +175,7 @@ a {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     width: 60%;
+    position: relative;
   }
   header .mainMenu a {
     font-weight: bold;
@@ -74,6 +199,9 @@ a {
   header .etc .search {
     cursor: pointer;
   }
+  .navi {
+    display: none;
+  }
   .searchWrap {
     display: none;
     z-index: 1;
@@ -86,7 +214,42 @@ a {
   }
   .searchWrap .searchBox {
     margin: 0 auto;
+    width: 800px;
     margin-top: 200px;
+  }
+  .searchWrap .searchBox input {
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+  }
+  .searchWrap .searchBox input::-webkit-input-placeholder {
+    text-indent: 30px;
+  }
+  .searchWrap .searchBox input:-ms-input-placeholder {
+    text-indent: 30px;
+  }
+  .searchWrap .searchBox input::-ms-input-placeholder {
+    text-indent: 30px;
+  }
+  .searchWrap .searchBox input::placeholder {
+    text-indent: 30px;
+  }
+  .searchWrap .searchBox .btnSearch {
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+    background: #ffbc0d;
+    cursor: pointer;
+    border: none;
+  }
+  .searchWrap .searchBox .btn {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #ffbc0d;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
   }
   .searchWrap.active {
     display: block;
