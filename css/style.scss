@@ -16,12 +16,6 @@ a {
 }
 
 @media all and (min-width: 320px) {
-  #menu {
-    position: absolute;
-    left: 420px;
-    top: 27px;
-    cursor: pointer;
-  }
   header {
     width: 300px;
     height: 70px;
@@ -37,6 +31,9 @@ a {
       img {
         width: 30px;
       }
+    }
+    #menu {
+      cursor: pointer;
     }
     .etc {
       display: none;
