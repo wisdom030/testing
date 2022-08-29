@@ -21,7 +21,6 @@ a {
     height: 70px;
     margin: 0 auto;
     display: flex;
-    background: pink;
     .logo {
       width: 10%;
       height: 100%;
@@ -34,6 +33,15 @@ a {
     }
     #menu {
       cursor: pointer;
+      margin-left: 250px;
+      display: flex;
+      align-items: center;
+    }
+    #xmark {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin-left: 250px;
     }
     .etc {
       display: none;
@@ -52,7 +60,7 @@ a {
       cursor: pointer;
       width: 100vw;
       height: 100%;
-      background: pink;
+      background: white;
       margin: 0 auto;
       padding: 20px;
       span {
@@ -70,6 +78,7 @@ a {
         width: 50%;
         height: 100%;
         float: left;
+        margin-left: 20px;
       }
     }
   }
@@ -79,7 +88,7 @@ a {
     .imgSlide {
       position: relative;
       width: 100vw;
-      height: 300px;
+      height: 150px;
       overflow: hidden;
       a {
         position: absolute;
@@ -304,9 +313,6 @@ a {
 }
 
 @media all and (min-width: 768px) {
-  #menu {
-    display: none;
-  }
   header {
     width: 800px;
     height: 100px;
@@ -320,6 +326,9 @@ a {
       img {
         width: 70px;
       }
+    }
+    #menu {
+      display: none;
     }
     .mainMenu {
       display: flex;

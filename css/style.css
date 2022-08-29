@@ -25,7 +25,6 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background: pink;
   }
   header .logo {
     width: 10%;
@@ -45,6 +44,23 @@ a {
   }
   header #menu {
     cursor: pointer;
+    margin-left: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header #xmark {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 250px;
   }
   header .etc {
     display: none;
@@ -63,7 +79,7 @@ a {
     cursor: pointer;
     width: 100vw;
     height: 100%;
-    background: pink;
+    background: white;
     margin: 0 auto;
     padding: 20px;
   }
@@ -82,6 +98,7 @@ a {
     width: 50%;
     height: 100%;
     float: left;
+    margin-left: 20px;
   }
   .imgSlideWrap {
     width: 542px;
@@ -90,7 +107,7 @@ a {
   .imgSlideWrap .imgSlide {
     position: relative;
     width: 100vw;
-    height: 300px;
+    height: 150px;
     overflow: hidden;
   }
   .imgSlideWrap .imgSlide a {
@@ -348,9 +365,6 @@ a {
 }
 
 @media all and (min-width: 768px) {
-  #menu {
-    display: none;
-  }
   header {
     width: 800px;
     height: 100px;
@@ -373,6 +387,9 @@ a {
   }
   header .logo img {
     width: 70px;
+  }
+  header #menu {
+    display: none;
   }
   header .mainMenu {
     display: -webkit-box;

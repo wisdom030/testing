@@ -44,7 +44,7 @@ $(window).resize(function(){
     $(".Mplus").click(function() {
       $(".Mplus").hide();
       $(".MliveBox02").show();
-      $("footer").offset({top:"2550"});
+      $("footer").offset({top:"2300"});
     });
     
   }
@@ -68,12 +68,20 @@ $(window).resize(function(){
   } else {
     $(".navi").hide();
     $(".naviSub").hide();
+    $("#xmark").hide();
     $("#menu").click(function() {
-      $(".navi").show();
+      $("#menu").hide();
+      $(".navi").slideDown(300);
+      $("#xmark").show();
       $(".navi").click(function() {
         $(this).next(".naviSub").stop().slideToggle(300);
         $(this).toggleClass("on").siblings().removeClass("on");
         $(this).next(".naviSub").siblings(".naviSub").slideUp(300);
+      });
+      $("#xmark").click(function() {
+        $(".navi").hide();
+        $("#menu").show();
+        $("#xmark").hide();
       });
     });
   }
