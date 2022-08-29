@@ -86,6 +86,7 @@ a {
     float: left;
   }
   .imgSlideWrap {
+    width: 542px;
     margin: 0 auto;
   }
   .imgSlideWrap .imgSlide {
