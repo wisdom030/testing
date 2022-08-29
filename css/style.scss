@@ -18,7 +18,7 @@ a {
 @media all and (min-width: 320px) {
   #menu {
     position: absolute;
-    left: 540px;
+    left: 480px;
     top: 27px;
     cursor: pointer;
   }
@@ -27,6 +27,7 @@ a {
     height: 70px;
     margin: 0 auto;
     display: flex;
+    background: pink;
     .logo {
       width: 10%;
       height: 100%;
