@@ -44,27 +44,14 @@
     text-align: center;
     margin-top: 20px;
   }
-  .swiper-container {
-    height: 500px;
-  }
   .swiper-container .swiper-slide {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .swiper-container .swiper-slide img {
     width: 150px;
+    height: 300px;
+    margin-top: 40px;
   }
-  .swiper-container .swiper-slide .text {
-    margin-top: 250px;
-    position: absolute;
-    left: 0;
+  .swiper-container .swiper-slide .swiper img {
+    width: 180px;
+    height: 180px;
   }
 }
 /*# sourceMappingURL=style.css.map */
