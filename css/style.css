@@ -34,7 +34,7 @@
     width: 60px;
   }
   header .menu {
-    width: 30%;
+    width: 40%;
   }
   header .menu .fa-solid {
     color: white;
@@ -65,7 +65,7 @@
     background: pink;
     margin-top: 280px;
     position: absolute;
-    left: 35px;
+    left: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
