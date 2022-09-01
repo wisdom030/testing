@@ -62,10 +62,9 @@
     width: 150px;
   }
   .swiper-container .swiper-slide .text {
-    background: pink;
-    margin-top: 280px;
+    margin-top: 250px;
     position: absolute;
-    left: 15px;
+    left: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
